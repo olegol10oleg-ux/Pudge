@@ -1,4 +1,4 @@
-#include "Meathook/MeatHook.h"
+#include "MeatHook.h"
 
 int main()
 {
