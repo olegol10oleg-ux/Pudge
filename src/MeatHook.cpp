@@ -22,12 +22,13 @@ void MeatHook::levelUp()
     if (level < maxLevel)
     {
         level = level + 1;
-        std::cout << "Meat Hook Upgraded to level " << level << "!\n";
+        std::cout << "Meat Hook Upgraded to level " << level << std::endl;
+        std::cout << std::endl;
         printStats();
     }
     else
     {
-        std::cout << "Meat Hook Already at maximum level!\n";
+        std::cout << "Meat Hook Already at maximum level!" << std::endl;
     }
 }
 
@@ -37,7 +38,7 @@ void MeatHook::printStats()
 
     std::cout << std::endl;
     std::cout << " Hook Level: " << level << std::endl;
-    std::cout << " Damage:     " << stats.damage << std::endl;
+    std::cout << " Damage:  " << stats.damage << std::endl;
     std::cout << " Mana Cost:  " << stats.manaCost << std::endl;
     std::cout << " Cooldown:   " << stats.cooldown << " sec. " << std::endl;
     std::cout << std::endl;
