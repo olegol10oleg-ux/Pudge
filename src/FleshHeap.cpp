@@ -14,7 +14,8 @@ FleshHeap::FleshHeap()
 void FleshHeap::addStack()
 {
     stacks++;
-    std::cout << "[Flesh Heap] Stack added! Total stacks: " << stacks << std::endl;
+    std::cout << "Flesh Heap Stack added! Total stacks: " << stacks << std::endl;
+    std::cout << std::endl;
 }
 
 void FleshHeap::levelUp()
@@ -22,11 +23,13 @@ void FleshHeap::levelUp()
     if (level < maxLevel)
         {
         level++;
-        std::cout << "[Flesh Heap] Leveled up to Level " << level << std::endl;
+        std::cout << "Flesh Heap upgraded to Level " << level << std::endl;
+        std::cout << std::endl;
     }
     else
     {
-        std::cout << "[Flesh Heap] Already at max level!" << std::endl;
+        std::cout << "Flesh Heap Already at max level!" << std::endl;
+        std::cout << std::endl;
     }
 }
 

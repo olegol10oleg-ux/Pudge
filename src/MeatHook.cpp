@@ -29,6 +29,7 @@ void MeatHook::levelUp()
     else
     {
         std::cout << "Meat Hook Already at maximum level!" << std::endl;
+        std::cout << std::endl;
     }
 }
 

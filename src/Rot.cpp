@@ -42,4 +42,5 @@ void Rot::printStats()
     std::cout << "Movement slow: " << stats.slowPercentsge << std::endl;
     std:: cout << "Radius ability: " << stats.radius << std::endl;
     std::cout << "Manacost: 0" << std::endl;
+    std::cout << std::endl;
 }
