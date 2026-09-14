@@ -9,4 +9,6 @@ add_executable(task_oop
         src/MeatHook.h
         src/Rot.cpp
         src/Rot.h
+        FleshHeap.cpp
+        FleshHeap.h
 )
